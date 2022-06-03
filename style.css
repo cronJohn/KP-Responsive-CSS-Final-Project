@@ -1,0 +1,22 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Set custom properties (Color Palette) */
+
+:root {
+    --dark-nav: #2E323F;
+    --dark-main: #3B4050;
+    --dark-sub-text: #6F737F;
+    --light: #FFF;
+    --light-main-text: #A59678;
+}
+
+/* Custom fonts
+
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Oswald', sans-serif;
+
+*/
+
