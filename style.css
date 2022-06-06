@@ -147,7 +147,19 @@ header {
 }
 
 .reasoning__container {
-    gap: 50px;
+    gap: 30px;
+}
+
+.reasoning__container main {
+    gap: 25px;
+}
+
+.reasoning__main-text {
+    color: var(--light-main-text);
+}
+
+.reasoning__container main p {
+    color: var(--dark-main);
 }
 
 .reasoning__container main{
@@ -185,15 +197,23 @@ header {
 }
 
 .mtc__container {
-    gap: 70px;
-    justify-content: center;
-    padding: 50px 40px
+    padding: 50px 0;
+    justify-content: space-around;
+}
+
+.mtc__container h2 {
+    margin-bottom: 15px;
+}
+
+.mtc__container p {
+    margin-bottom: 20px;
 }
 
 .mtc h2 {
     color: var(--light-main-text);
 }
 
-.mtc h3, .mtc p {
+.mtc p {
     color: var(--light);
 }
+
