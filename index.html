@@ -11,17 +11,16 @@
     <title>Final Project</title>
 </head>
 <body>
-    <header class="nav">
-        <div class="container">
-            <a href="#">
-                <img src="#" alt="My logo">
-            </a>
-
+    <header>
+        <div class="container row">
+            <img class="logo" src="img/profilepic.png" alt="My logo">
             <nav class="nav">
-                <ul class="nav__list">
+                <ul class="nav__list row">
                     <li class="nav__item">Home</li>
                     <li class="nav__item">About</li>
                     <li class="nav__item">Contact</li>
+                </ul>
+                <ul class="nav__list row">
                     <li class="nav__item">Sign In</li>
                     <li class="nav__item">Sign Up</li>
                 </ul>
@@ -30,12 +29,12 @@
     </header>
 
     <section class="hero">
-        <div class="container row">
+        <div class="hero__container row">
             <div class="hero__text">
-                <h1>Responsive layouts don't have to be a struggle</h1>
+                <h1>Responsive layouts <span class="highlight">don't have to be a struggle</span></h1>
             </div>
-            <div class="hero__sub-text">
-                <p>Lorem ipsum dolor sit amet, consectetur
+            <div class="hero__sub-text col">
+                <p class="hero__sub-text__p">Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua
                 </p>
@@ -45,8 +44,8 @@
     </section>
 
     <section class="points">
-        <div class="container row">
-            <div class="row">
+        <div class="points__container row">
+            <div class="col">
                 <h2>Mobile-first</h2>
                 <p>Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit, sed do
@@ -55,7 +54,7 @@
                     enim ad minim veniam.
                 </p>
             </div>
-            <div class="row">
+            <div class="col">
                 <h2>Efficient</h2>
                 <p>Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit, sed do
@@ -64,7 +63,7 @@
                     enim ad minim veniam.
                 </p>
             </div>
-            <div class="row">
+            <div class="col">
                 <h2>Done right</h2>
                 <p>Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit, sed do
@@ -77,7 +76,7 @@
     </section>
 
     <section class="reasoning">
-        <div class="container row">
+        <div class="reasoning__container row">
             <main class="col">
                 <h2>It doesn't have to be so hard</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -86,7 +85,7 @@
                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam.
                 </p>
-                <img src="#" alt="Deal">
+                <img class="img__content" src="img/code.jpg" alt="Deal">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                     enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
@@ -94,8 +93,8 @@
                     dolore magna aliqua. Ut enim ad minim veniam.
                 </p>
             </main>
-            <aside class="col">
-                <div class="row">
+            <aside class="other col">
+                <div class="col">
                     <h2>Break it down</h2>
                     <p>Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do
@@ -103,7 +102,7 @@
                         labore et dolore magna aliqua.
                     </p>
                 </div>
-                <div class="row">
+                <div class="col">
                     <h2>Work your way up</h2>
                     <p>Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do
@@ -111,7 +110,7 @@
                         labore et dolore magna aliqua.
                     </p>
                 </div>
-                <div class="row">
+                <div class="col">
                     <h2>Don't stress</h2>
                     <p>Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do
@@ -124,8 +123,8 @@
     </section>
 
     <footer class="mtc">
-        <h1>Just scratching the surface</h1>
-        <div class="container row">
+        <h1 class="mtc__title">Just scratching the surface</h1>
+        <div class="mtc__container row">
             <div class="col">
                 <h2>About me</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa aperiam a doloribus dolorum qui quae quibusdam. Quo odio consectetur perspiciatis quidem obcaecati distinctio possimus vitae quia, voluptatem explicabo, autem eos!</p>
