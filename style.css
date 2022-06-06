@@ -90,8 +90,11 @@ header {
 }
 
 .hero__container {
-    margin: 0 5rem;
-    gap: 20px
+    margin: 0 auto;
+    padding: 0 50px;
+    gap: clamp(0px, 25px, 26px);
+    max-width: 1000px;
+    justify-content: center;
 }
 
 .hero__text {
@@ -103,7 +106,6 @@ header {
 
 .hero__sub-text {
     justify-content: flex-end;
-    max-width: 420px;
 }
 
 .hero__sub-text__p {
@@ -176,6 +178,8 @@ header {
 
 .other p {
     font-size: .9rem;
+    margin-top: 10px;
+    line-height: 1.4;
 }
 
 .other > div{
@@ -217,3 +221,33 @@ header {
     color: var(--light);
 }
 
+
+@media (max-width: 710px) {
+
+    
+    .hero__container {
+        flex-direction: column;
+    }
+
+    .points__container {
+        flex-direction: column;
+    }
+
+    .reasoning__container {
+        flex-direction: column;
+    }
+
+    .reasoning__container .col {
+        width: 100%;
+    }
+
+    .mtc__container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mtc__container .col {
+        width: 50%;   
+    }
+}
